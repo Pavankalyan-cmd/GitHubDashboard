@@ -221,23 +221,26 @@ repoinsights/
 ## screenshots 
 ## Landing Page
 
-<img width="1470" alt="Screenshot 2025-05-07 at 11 11 39 PM" src="https://github.com/user-attachments/assets/af643600-4dbf-4700-8004-920dd84e16ba" />
+<img width="1470" alt="Screenshot 2025-05-07 at 11 11 29 PM" src="https://github.com/user-attachments/assets/e7bda406-1428-4dcf-9fc6-fe0a3350d32a" />
+
+
 
 ## Dashboard
 
-<img width="1470" alt="Screenshot 2025-05-07 at 11 11 44 PM" src="https://github.com/user-attachments/assets/f919197e-c692-4f99-8241-22114b5872af" />
+<img width="1470" alt="Screenshot 2025-05-07 at 11 11 44 PM" src="https://github.com/user-attachments/assets/43a03de5-165f-494a-83a5-3c22c2e24fcf" />
 
 ## User Repositories
 
-<img width="1470" alt="Screenshot 2025-05-07 at 11 13 00 PM" src="https://github.com/user-attachments/assets/b53044e6-e902-47e8-9e83-edd722492baf" />
+<img width="1470" alt="Screenshot 2025-05-07 at 11 13 00 PM" src="https://github.com/user-attachments/assets/d2cb041a-c31a-4527-9575-cd6bf6f32645" />
 
 ## Workflows
 
-<img width="1470" alt="Screenshot 2025-05-07 at 11 13 06 PM" src="https://github.com/user-attachments/assets/81d8099f-d1d7-45df-9e9b-6409aacbb5d1" />
+<img width="1470" alt="Screenshot 2025-05-07 at 11 13 06 PM" src="https://github.com/user-attachments/assets/d2131bd0-0992-4b89-9245-afecd0e3c7ab" />
+
 
 ## Logs
 
-<img width="1470" alt="Screenshot 2025-05-07 at 11 13 23 PM" src="https://github.com/user-attachments/assets/1dae6b03-dd3b-4329-b58b-8fc07fac7efb" />
+<img width="1470" alt="Screenshot 2025-05-07 at 11 13 23 PM" src="https://github.com/user-attachments/assets/6b66db8d-c551-4465-8c64-b2503a3788e9" />
 
 
 
