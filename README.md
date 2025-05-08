@@ -145,10 +145,18 @@ npm start
 | OAuth Callback     | GET    | `/auth/github/callback/`                           | Handles GitHub redirect |
 | Exchange Code      | POST   | `/auth/token/`                                     | Get GitHub access token |
 | List Repos         | GET    | `/api/user-repos/`                                 | Lists user repositories |
+| List Orgs          | GET    | `api/user-orgs/`                                   | user organizations      |
+| List Orgs          | GET    | `api/org-repos/:org_name/`                         | repositories for an org |
 | Repo Workflows     | GET    | `/api/repo-workflow/:user/:repo/`                  | Lists workflows in repo |
 | Trigger Workflow   | POST   | `/api/workflows/:user/:repo/:workflow_id/trigger/` | Triggers workflow       |
 | List Workflow Runs | GET    | `/api/workflows/:user/:repo/runs/`                 | Shows workflow history  |
 | Run Logs           | GET    | `/api/workflows/:user/:repo/:run_id/logs/`         | Shows logs for a run    |
+
+
+
+
+
+
 
 ---
 
