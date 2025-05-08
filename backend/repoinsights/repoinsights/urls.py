@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api.views import github_auth,get_user_repos,get_repo_workflow,trigger_workflow,get_workflow_runs,get_workflow_logs
+from api.views import github_auth,get_user_repos,get_repo_workflow,trigger_workflow,get_workflow_runs,get_workflow_logs,get_user_orgs,get_org_repos
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +26,6 @@ urlpatterns = [
     path('api/workflows/<str:userLogin>/<str:selectedRepo>/<int:workflowId>/trigger/', trigger_workflow),
     path('api/workflowruns/<str:userLogin>/<str:selectedRepo>/<int:workflowId>/runs/',get_workflow_runs),
     path('api/workflowlogs/<str:userLogin>/<str:selectedRepo>/<int:runId>/', get_workflow_logs),
-
+    path('api/user-orgs/', get_user_orgs),
+    path('api/org-repos/<str:org_name>/', get_org_repos),
 ]

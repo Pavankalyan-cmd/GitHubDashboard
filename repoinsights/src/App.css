@@ -21,20 +21,24 @@
 
 .button1,
 .button2 {
-  width: 50%;
+  width: 100%;
   margin: 1%;
 }
 
 .dropdown {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .dropdown-menu {
-  width: 50%;
+  width: 48% !important;
 }
-
+.repo,
+.org {
+  width: 100%;
+  margin: 1%;
+}
 .table {
   width: 100% !important;
 }
@@ -74,7 +78,7 @@
   .dropdown-menu,
   .button1,
   .button2 {
-    width: 90%;
+    width: 90% !important;
   }
   .logviewer {
     max-height: 300px;
@@ -98,7 +102,7 @@
   .dropdown-menu,
   .button1,
   .button2 {
-    width: 80%;
+    width: 80% !important;
   }
 }
 
@@ -112,7 +116,7 @@
     justify-content: space-between;
   }
   .dropdown-menu {
-    width: 60%;
+    width: 48% !important;
   }
 }
 
@@ -122,7 +126,7 @@
     width: 70%;
   }
   .dropdown-menu {
-    width: 50%;
+    width: 48% !important;
   }
 }
 
@@ -132,6 +136,6 @@
     width: 60%;
   }
   .dropdown-menu {
-    width: 40%;
+    width: 48% !important;
   }
 }

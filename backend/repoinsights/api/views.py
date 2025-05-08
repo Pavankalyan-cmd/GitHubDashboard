@@ -58,6 +58,41 @@ def get_user_repos(request):
 
     return Response(github_response.json())
 
+
+
+
+@api_view(['GET'])
+def get_user_orgs(request):
+    token = request.headers.get('Authorization')
+    if not token:
+        return Response({'error': 'Missing token'}, status=401)
+
+    res = requests.get(
+        'https://api.github.com/user/orgs',
+        headers={
+            'Authorization': token,
+            'Accept': 'application/vnd.github.v3+json'
+        }
+    )
+    return Response(res.json(), status=res.status_code)
+
+
+@api_view(['GET'])
+def get_org_repos(request, org_name):
+    token = request.headers.get('Authorization')
+    if not token:
+        return Response({'error': 'Missing token'}, status=401)
+
+    url = f'https://api.github.com/orgs/{org_name}/repos'
+    res = requests.get(url, headers={
+        'Authorization': token,
+        'Accept': 'application/vnd.github.v3+json'
+    })
+
+    return Response(res.json(), status=res.status_code)
+
+
+
 @api_view(['GET'])
 def get_repo_workflow(request, userLogin, selectedRepo):
     token = request.headers.get('Authorization')
