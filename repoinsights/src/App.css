@@ -1,0 +1,137 @@
+.landingpage {
+  width: 50%;
+  margin: 20% auto;
+}
+
+#datacontainer {
+  padding: 2%;
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 10% auto;
+  text-align: center;
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff !important;
+}
+
+#dropdownMenuButton {
+  width: 100%;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+.button1,
+.button2 {
+  width: 50%;
+  margin: 1%;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dropdown-menu {
+  width: 50%;
+}
+
+.table {
+  width: 100% !important;
+}
+
+.tabledata {
+  width: 100% !important;
+}
+
+.githubbtn {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.logviewer {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: monospace;
+  padding: 2%;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  #datacontainer {
+    width: 90%;
+    margin: 5% auto;
+    padding: 6%;
+  }
+  .dropdown {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dropdown-menu,
+  .button1,
+  .button2 {
+    width: 90%;
+  }
+  .logviewer {
+    max-height: 300px;
+  }
+  .tablelayout {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #datacontainer {
+    width: 85%;
+  }
+  .dropdown {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dropdown-menu,
+  .button1,
+  .button2 {
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #datacontainer {
+    width: 75%;
+  }
+  .dropdown {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .dropdown-menu {
+    width: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #datacontainer {
+    width: 70%;
+  }
+  .dropdown-menu {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #datacontainer {
+    width: 60%;
+  }
+  .dropdown-menu {
+    width: 40%;
+  }
+}
